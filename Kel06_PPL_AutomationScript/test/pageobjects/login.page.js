@@ -8,8 +8,8 @@ class LoginPage extends Page {
     /**
      * define selectors using getter methods
      */
-    get inputUsername () {
-        return $('#username');
+    get inputEmail () {
+        return $('#email');
     }
 
     get inputPassword () {
@@ -17,19 +17,25 @@ class LoginPage extends Page {
     }
 
     get btnSubmit () {
-        return $('button[type="submit"]');
+        return $('input[type="submit"]');
     }
 
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
-    async login (username, password) {
-        await this.inputUsername.setValue(username);
-        await this.inputPassword.setValue(password);
-        await this.btnSubmit.click();
+    async login(email, password) {
+        try {
+            await this.inputEmail.setValue(email);
+            await this.inputPassword.setValue(password);
+            await this.btnSubmit.click();
+        } catch (error) {
+            console.error('Login failed:', error.message);
+            // You might want to throw the error again or take other actions
+            throw error;
+        }
     }
-
+    
     /**
      * overwrite specific options to adapt it to page object
      */

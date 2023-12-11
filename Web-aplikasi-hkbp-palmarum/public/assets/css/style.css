@@ -1,0 +1,75 @@
+
+.container1{
+	max-width: 1000px;
+	display: center;
+	align-items: center;
+
+	
+	border-radius:  50px;
+	box-shadow: 05px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+	font-family: Montserrat;
+  }
+  
+.navbar div {
+	font-family: Montserrat;
+  }
+  
+h1{
+	font-weight: bold;
+	font-family: Martel;
+}
+
+h2{
+	font-weight: bold;
+	font-family: Martel;
+	text-align: center;
+}
+
+.title { 
+	color: black;
+	font-weight: bold;
+	font-family: Martel;
+	text-align: center;
+	
+  }
+
+  label {
+	font-family: Martel;
+	font-size: 16px;
+  }
+
+  input {
+	font-family: Martel;
+	font-size: 16px;
+  }
+
+  .submit-btn {
+	float: right;
+	background-color: #23353C; 
+	color: white;
+  }
+
+  .logo {
+	font-family: Martel;
+	color: #f2f2f2;
+  }
+  
+
+footer {
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+
+.logo-container {
+	display: flex;
+	float: right;
+	margin-right: 20px;
+  }
+  
+.logo-container img {
+	width: 150px;
+	height: 150px;
+  }

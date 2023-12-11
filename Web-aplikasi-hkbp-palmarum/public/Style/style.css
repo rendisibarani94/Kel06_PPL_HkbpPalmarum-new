@@ -1,0 +1,37 @@
+#textHeader{
+    font-size: 30px;
+    padding-top: 1rem;
+}
+
+#searchHeader{
+    padding-top: 25px;
+}
+
+#buttonHeader{
+    margin-right: 1rem;
+}
+
+.iconbutton{
+    width: 20px;
+    height: 20px;
+}
+#buttonKembali{
+    margin-left: 50px;
+    width: 100px;
+}
+#buttonEdit{
+    margin-left: 1100px;
+    width: 100px;
+}
+#sidebar{
+    height: auto;
+}
+   .info-1{
+    background-color: #CFFECC;
+  }
+  .info-2{
+    background-color: #FECCCC;
+  }
+  .info-3{
+    background-color: #CCFEF9;
+  }

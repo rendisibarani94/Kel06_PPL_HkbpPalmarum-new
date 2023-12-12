@@ -30,11 +30,21 @@ exports.config = {
         // './test/specs/**/jemaattest.js',
 
         // './test/specs/**/runtest.js'
-        './test/specs/**/AddJemaat.js',
+        // './test/specs/**/SearchJemaat.js',
+
+        // './test/specs/**/pelayan.js',
+
+        // './test/specs/**/AddMartumpol.js',
+        // './test/specs/**/AddRpp.js',
+        // './test/specs/**/DeleteRpp.js',
+        // './test/specs/**/DetailJemaat.js',
+       // './test/specs/**/EditIbadah.js',
 
         // './test/specs/**/test.js'
+        // './test/specs/**/ListJemaat.js'
 
-        // './test/specs/**/testapijemaat.js'
+        // './test/specs/**/GetDataJemaat.js'
+        './test/specs/**/AddMartumpoljs'
 
     ],
     // Patterns to exclude.

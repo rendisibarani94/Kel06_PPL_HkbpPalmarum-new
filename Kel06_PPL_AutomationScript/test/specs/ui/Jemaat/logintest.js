@@ -1,5 +1,5 @@
 const { expect } = require("@wdio/globals");
-const LoginPage = require("../../../pageobjects/login.page");
+const LoginPage = require("../../../pageobjects/login.page2");
 const SecurePage = require("../../../pageobjects/secure.page");
 const { assert } = require("chai");
 

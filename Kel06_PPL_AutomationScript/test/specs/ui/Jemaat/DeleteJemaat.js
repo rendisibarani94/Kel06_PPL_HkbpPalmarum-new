@@ -1,5 +1,5 @@
 const { expect } = require("@wdio/globals");
-const LoginPage = require("../../../pageobjects/login.page");
+const LoginPage = require("../../../pageobjects/login.page2");
 const SecurePage = require("../../../pageobjects/secure.page");
 const { assert } = require("chai");
 
@@ -50,10 +50,10 @@ describe("My Login application", () => {
   it("should search and delete data from jemaat table", async() =>{
 
     const searchInput = $('.form-control.form-control-sm');
-    searchInput.setValue('aa Ray Siagian aa');
+    searchInput.setValue('Dr. COCEP Phyto S.Tr');
     await searchInput.click();
 
-    await searchInput.setValue('aa Ray Siagian aa');
+    await searchInput.setValue('Dr. COCEP Phyto S.Tr');
 
     await browser.pause(2000);
 

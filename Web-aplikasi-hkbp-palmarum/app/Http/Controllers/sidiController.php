@@ -125,7 +125,7 @@ class sidiController extends Controller
      */
     public function destroy($id)
     {
-        $data = Http::get('http://127.0.0.1:8070/api/deleteSidi/'.$id);
+        $data = Http::delete('http://127.0.0.1:8070/api/deleteSidi/'.$id);
 
         if($data == null){
             Alert::error('Hapus Sidi', 'Hapus Sidi Gagal');

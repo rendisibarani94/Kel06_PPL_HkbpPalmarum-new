@@ -140,7 +140,7 @@ class rppController extends Controller
     public function destroy($id){
         // Session::flash('success', 'Your data has been successfully deleted.');
         // Session::flash('failed', 'Your data was failed to delete.');
-        $data = Http::get('http://127.0.0.1:8070/api/deleteRpp/'.$id);
+        $data = Http::delete('http://127.0.0.1:8070/api/deleteRpp/'.$id);
 
         if($data == null){
             Alert::error('Hapus RPP', 'Hapus RPP Gagal');

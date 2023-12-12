@@ -116,7 +116,7 @@ class pernikahanController extends Controller
      */
     public function destroy($id)
     {
-        $data = Http::get('http://127.0.0.1:8070/api/deleteNikah/'.$id);
+        $data = Http::delete('http://127.0.0.1:8070/api/deleteNikah/'.$id);
 
         if($data == null){
             Alert::error('Hapus Pernikahan', 'Hapus Pernikahan Gagal');

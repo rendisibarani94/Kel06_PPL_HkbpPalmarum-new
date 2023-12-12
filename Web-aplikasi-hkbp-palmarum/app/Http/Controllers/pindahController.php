@@ -116,7 +116,7 @@ class pindahController extends Controller
      */
     public function destroy($id)
     {
-        $data = Http::get('http://127.0.0.1:8070/api/deleteJemaatPindah/'.$id);
+        $data = Http::delete('http://127.0.0.1:8070/api/deleteJemaatPindah/'.$id);
 
         if($data == null){
             Alert::error('Hapus Pindah', 'Hapus Pindah Gagal');

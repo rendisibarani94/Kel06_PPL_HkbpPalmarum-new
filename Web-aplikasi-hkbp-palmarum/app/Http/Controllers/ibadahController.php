@@ -230,7 +230,7 @@ class ibadahController extends Controller
      */
     public function destroy(string $id)
     {
-        $data['ibadah'] = Http::get('http://127.0.0.1:8070/api/deleteIbadah/'.$id);
+        $data['ibadah'] = Http::delete('http://127.0.0.1:8070/api/deleteIbadah/'.$id);
         if($data == null){
         Alert::error('Hapus Jadwal Ibadah', 'Hapus Jadwal Ibadah Gagal');
             // $failedMessage = Session::get('failed');

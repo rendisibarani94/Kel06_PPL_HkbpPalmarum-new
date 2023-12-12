@@ -142,7 +142,7 @@ class jemaatController extends Controller
      */
     public function destroy(string $id)
     {
-        $data = Http::get('http://127.0.0.1:8070/api/deleteRegistrasiJemaat/'.$id);
+        $data = Http::delete('http://127.0.0.1:8070/api/deleteRegistrasiJemaat/'.$id);
 
         if($data == null){
         

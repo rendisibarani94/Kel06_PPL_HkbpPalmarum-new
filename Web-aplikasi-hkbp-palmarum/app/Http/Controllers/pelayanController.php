@@ -143,7 +143,7 @@ class pelayanController extends Controller
      */
     public function destroy($id)
     {
-        $data['pelayan'] = Http::get('http://127.0.0.1:8070/api/deletePelayanGereja/'.$id);
+        $data['pelayan'] = Http::delete('http://127.0.0.1:8070/api/deletePelayanGereja/'.$id);
         if($data == null){
             // $failedMessage = Session::get('failed');
             Alert::error('Hapus Pelayan', 'Hapus Pelayan Gagal');

@@ -3,6 +3,9 @@ const Page = require('./page');
 
 class LoginPage extends Page {
 
+    /**
+     * define selectors using getter methods
+     */
     get inputEmail () {
         return $('#email');
     }
@@ -16,6 +19,10 @@ class LoginPage extends Page {
     }
 
 
+    /**
+     * a method to encapsule automation code to interact with the page
+     * e.g. to login using username and password
+     */
     async login (email, password) {
         await this.inputEmail.setValue(email);
         await this.inputPassword.setValue(password);

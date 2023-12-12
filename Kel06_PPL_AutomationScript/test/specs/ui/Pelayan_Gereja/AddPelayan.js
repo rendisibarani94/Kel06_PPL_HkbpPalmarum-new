@@ -58,135 +58,6 @@ it("should display Pendaftaran Pelayan", async () => {
 })
 
 
-// it('should fill form data and show success message', async () => {
-
-//   // const idjemaatDropdown = 'id_jemaat';
-//   // const dropdownidjemaat = $(`select[name="${idjemaatDropdown}"]`);
-  
-//   // // Click on the dropdown
-//   // await dropdownidjemaat.click();
-  
-//   // // Wait for the dropdown options to exist
-//   // dropdownidjemaat.waitForExist();
-  
-//   // // Select the option by visible text
-//   // await dropdownidjemaat.selectByVisibleText('Lidya Simamora'); // Replace with the desired option
-  
-//   // // Add a delay of 5 seconds (3000 milliseconds) to see the input
-//   // await browser.pause(3000);
-  
-//   // // Wait for the dropdown to have a specific value
-//   // dropdownidjemaat.waitForValue('1', { timeout: 3000 }); // Replace with the expected value
-
-//   // const selectedidjemaatValue = await dropdownidjemaat.getValue();
-//   // assert.strictEqual(selectedidjemaatValue,'1');
-
-
-
-//   // const idjemaatDropdown = 'id_jemaat';
-//   // const dropdownidjemaat = $(`select[name="${idjemaatDropdown}"]`);
-  
-//   // // Click on the dropdown
-//   // await dropdownidjemaat.click();
-  
-//   // // Wait for the dropdown options to exist with a timeout
-//   // await dropdownidjemaat.waitForExist({ timeout: 3000 });
-  
-//   // // Select the option by visible text
-//   // await dropdownidjemaat.selectByVisibleText('Lidya Simamora'); // Replace with the desired option
-  
-//   // // Add a delay of 5 seconds (3000 milliseconds) to see the input
-//   // await browser.pause(2000);
-  
-//   // // Wait for the dropdown to have a specific value
-//   // await dropdownidjemaat.waitForValue('1', { timeout: 3000 }); // Replace with the expected value
-  
-//   // // Get the selected value from the dropdown
-//   // const selectedidjemaatValue = await dropdownidjemaat.getValue();
-  
-//   // // Assert that the selected value is '1'
-//   // assert.strictEqual(selectedidjemaatValue, '1');
-
-//   const idjemaatDropdown = 'id_jemaat';
-// const dropdownidjemaat = $(`select[name="${idjemaatDropdown}"]`);
-
-// // Click on the dropdown
-// await dropdownidjemaat.click();
-
-// // Wait for the dropdown options to exist with a timeout
-// await dropdownidjemaat.waitForExist({ timeout: 3000 });
-
-// // Select the option by visible text
-// await dropdownidjemaat.selectByVisibleText('Lidya Simamora'); // Replace with the desired option
-
-// // Add a delay of 5 seconds (3000 milliseconds) to see the input
-// await browser.pause(3000);
-
-// // Wait until the value of the dropdown is '1'
-// await dropdownidjemaat.waitUntil(
-//   async () => {
-//     const selectedValue = await dropdownidjemaat.getValue();
-//     return selectedValue === '1';
-//   },
-//   { timeout: 3000, timeoutMsg: 'Dropdown value did not become "1" within 5 seconds' }
-// );
-
-// // Get the selected value from the dropdown
-// const selectedidjemaatValue = await dropdownidjemaat.getValue();
-
-// // Assert that the selected value is '1'
-// assert.strictEqual(selectedidjemaatValue, '1');
-
-  
-//   const fields = {
-//     'Tanggal Tahbisan': $('input[name="tanggal_tahbisan"]'),
-//     'Tanggal Akhir Jawatan': $('input[name="tanggal_akhir_jawatan"]'),
-//     'Keterangan': $('input[name="keterangan"]'),
-//   };
-
-//   const inputValues = {
-//     'Tanggal Tahbisan': '01/19/1994',
-//     'Tanggal Akhir Jawatan': '06/24/2023',
-//     'Keterangan': 'Sintua Gereja HKBP Palmarum',
-//   };
-
-//   for (const label in fields) {
-//     const input = fields[label];
-//     await input.setValue(inputValues[label]);
-//   }
-//   const jabatanDropdown = 'jabatan';
-// const dropdownjabatan = $(`select[name="${jabatanDropdown}"]`);
-
-// // Click on the dropdown
-// await dropdownjabatan.click();
-
-// // Wait for the dropdown options to exist with a timeout
-// await dropdownjabatan.waitForExist({ timeout: 3000 });
-
-// // Select the option by attribute (value)
-// await dropdownjabatan.selectByAttribute('value', '1'); // Replace with the desired option value
-
-// // Add a delay of 2 seconds (2000 milliseconds) to see the input
-// await browser.pause(2000);
-
-// // Wait until the value of the dropdown is '1'
-// await dropdownjabatan.waitUntil(
-//   async () => {
-//     const selectedValue = await dropdownjabatan.getValue();
-//     return selectedValue === '1';
-//   },
-//   { timeout: 3000, timeoutMsg: 'Dropdown value did not become "1" within 5 seconds' }
-// );
-
-// // Get the selected value from the dropdown
-// const selectedjabatanValue = await dropdownjabatan.getValue();
-
-// // Assert that the selected value is '1'
-// assert.strictEqual(selectedjabatanValue, '1');
-
-
-// });
-
 it('should fill form data and show success message', async () => {
 
   const idjemaatDropdown = 'id_jemaat';
@@ -227,7 +98,7 @@ it('should fill form data and show success message', async () => {
 
   const inputValues = {
     'Tanggal Tahbisan': '01/19/1994',
-    'Tanggal Akhir Jawatan': '06/24/2023',
+    'Tanggal Akhir Jawatan': '06/06/2023',
     'Keterangan': 'Sintua Gereja HKBP Palmarum',
   };
 
@@ -256,7 +127,7 @@ it('should fill form data and show success message', async () => {
       const selectedValue = await dropdownjabatan.getValue();
       return selectedValue === 'pendeta';
     },
-    { timeout: 3000, timeoutMsg: 'Jabatan dropdown value did not become "Pendeta" within 5 seconds' }
+    { timeout: 3000, timeoutMsg: 'Jabatan dropdown value did not become "pendeta" within 5 seconds' }
   );
 
   // Get the selected value from the Jabatan dropdown
@@ -270,7 +141,7 @@ it('should fill form data and show success message', async () => {
 
   await createButton.click();
 
-  browser.pause(4000);
+  await browser.pause(5000);
 
 
 });

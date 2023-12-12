@@ -22,7 +22,13 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+           './test/specs/**/Pelayan_Gereja.js',
+    //    './test/specs/api/**/*.js',
+        // './test/specs/api/Pernikahan/*.js'
+        // './test/specs/api/Pelayan_Gereja/*.js'
+        // './test/specs/api/Jadwal_Ibadah/*.js'
+        // './test/specs/api/Jemaat/*.js'
+
     ],
     // Patterns to exclude.
     exclude: [

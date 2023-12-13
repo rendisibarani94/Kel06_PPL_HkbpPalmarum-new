@@ -1,5 +1,27 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
 <<<<<<< HEAD
+"passed","Wed Dec 13 08:09:53 ICT 2023","Wed Dec 13 08:09:54 ICT 2023","888","","Get By ID Baptis Invalid","","","","should return the response property ""code"" with not 200 value for an invalid ID",""
+"passed","Wed Dec 13 08:09:51 ICT 2023","Wed Dec 13 08:09:53 ICT 2023","1670","","Get By ID Baptis Invalid","","","","should return response in json content-type for an invalid ID",""
+"broken","Wed Dec 13 08:14:22 ICT 2023","Wed Dec 13 08:14:23 ICT 2023","1157","","Get By ID rpp API Test","","","","should return a 200 status code for a valid ID",""
+"passed","Wed Dec 13 08:09:54 ICT 2023","Wed Dec 13 08:09:55 ICT 2023","904","","Get By ID Baptis Invalid","","","","should return the response property ""message"" without ""Success"" value for an invalid ID",""
+"broken","Wed Dec 13 08:14:22 ICT 2023","Wed Dec 13 08:14:24 ICT 2023","1811","","Delete By ID rpp API Test","","","","should return a 200 status code after successful deletion",""
+"broken","Wed Dec 13 08:14:23 ICT 2023","Wed Dec 13 08:14:25 ICT 2023","1274","","Get By ID rpp API Test","","","","should return response in json content-type for a valid ID",""
+"passed","Wed Dec 13 08:14:24 ICT 2023","Wed Dec 13 08:14:27 ICT 2023","2547","","Delete By ID rpp API Test","","","","should not be able to fetch the deleted resource",""
+"passed","Wed Dec 13 08:14:24 ICT 2023","Wed Dec 13 08:14:25 ICT 2023","578","","Get All Baptis API Test","","","","should return the response property ""code"" with 200 value",""
+"passed","Wed Dec 13 08:09:55 ICT 2023","Wed Dec 13 08:09:56 ICT 2023","921","","Get By ID Baptis Invalid","","","","should return the response property ""data"" as null for an invalid ID",""
+"broken","Wed Dec 13 08:14:25 ICT 2023","Wed Dec 13 08:14:25 ICT 2023","610","","Get By ID rpp API Test","","","","should return the response property ""code"" with 200 value for a valid ID",""
+"broken","Wed Dec 13 08:09:45 ICT 2023","Wed Dec 13 08:09:51 ICT 2023","6093","","Delete By ID rpp API Test","","","","should return a 204 status code after successful deletion",""
+"passed","Wed Dec 13 08:14:25 ICT 2023","Wed Dec 13 08:14:25 ICT 2023","564","","Get All Baptis API Test","","","","should return the response property ""message"" with ""Success"" value",""
+"passed","Wed Dec 13 08:09:47 ICT 2023","Wed Dec 13 08:09:51 ICT 2023","4356","","Get By ID Baptis Invalid","","","","should return a 400 status code for an invalid ID",""
+"broken","Wed Dec 13 08:14:26 ICT 2023","Wed Dec 13 08:14:26 ICT 2023","710","","Get By ID rpp API Test","","","","should return the response property ""data"" as an array for a valid ID",""
+"passed","Wed Dec 13 08:14:25 ICT 2023","Wed Dec 13 08:14:26 ICT 2023","640","","Get All Baptis API Test","","","","should return the response property ""data"" as an array",""
+"passed","Wed Dec 13 08:14:26 ICT 2023","Wed Dec 13 08:14:27 ICT 2023","415","","Get By ID rpp API Test","","","","should return a 400 status code for an invalid ID",""
+"passed","Wed Dec 13 08:14:22 ICT 2023","Wed Dec 13 08:14:24 ICT 2023","1746","","Get All Baptis API Test","","","","should return response in json content-type",""
+"passed","Wed Dec 13 08:14:22 ICT 2023","Wed Dec 13 08:14:23 ICT 2023","791","","Add Baptis API","","","","should add Registrasi Baptis successfully",""
+"passed","Wed Dec 13 08:14:22 ICT 2023","Wed Dec 13 08:14:22 ICT 2023","417","","Get All Baptis API Test","","","","should return 200 response status",""
+"broken","Wed Dec 13 08:14:25 ICT 2023","Wed Dec 13 08:14:26 ICT 2023","547","","Get By ID rpp API Test","","","","should return the response property ""message"" with ""Success"" value for a valid ID",""
+=======
+<<<<<<< HEAD
 "passed","Tue Dec 12 20:44:37 ICT 2023","Tue Dec 12 20:44:43 ICT 2023","5996","","My Login application","","","","should search data in  rpp table and click the edit button",""
 "passed","Tue Dec 12 20:51:01 ICT 2023","Tue Dec 12 20:51:07 ICT 2023","5946","","My Login application","","","","should search data in rpp table and click the detail button",""
 "unknown","Tue Dec 12 20:43:35 ICT 2023","Tue Dec 12 20:43:44 ICT 2023","8596","","My Login application","","","","should fill form data and show success message",""
@@ -134,3 +156,4 @@
 "passed","Tue Dec 12 21:45:05 WIB 2023","Tue Dec 12 21:45:05 WIB 2023","772","","Delete Invalid Jadwal Ibadah API Test","","","","should return response ""data"" property equal to null",""
 "passed","Tue Dec 12 21:45:26 WIB 2023","Tue Dec 12 21:45:27 WIB 2023","639","","Delete Invalid Pelayan Gereja API Test","","","","should return response ""message"" property equals ""Failed""",""
 >>>>>>> 13d1a2d62658e6f849d1fa92180f1b41865c90c1
+>>>>>>> fc9dc15a087b55fe8ac88adac4deeebf1b771900

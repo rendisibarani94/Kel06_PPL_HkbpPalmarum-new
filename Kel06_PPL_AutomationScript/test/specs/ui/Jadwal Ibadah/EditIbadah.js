@@ -52,7 +52,7 @@ describe("My Login application", () => {
     searchInput.setValue('Minggu Trinitatis / 2023-06-04 / 12:01:32');
     await searchInput.click();
   
-    await searchInput.setValue('Minggu Trinitatis / 2023-06-04 / 12:01:32');
+    await searchInput.setValue('Minggu Trinitatis / 2023-06-04 / 12:01');
   
     await browser.pause(2000);
   

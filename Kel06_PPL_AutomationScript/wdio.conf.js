@@ -22,12 +22,12 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/DetailIbadah.js'
+        './test/specs/**/EditIbadah.js'
     ],
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
-    ],
+    ], 
     //
     // ============
     // Capabilities

@@ -22,6 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
+        './test/specs/**/EditIbadah.js'
    // './test/specs/api/Baptis/*.js'
   // './test/specs/api/Kegiatan_Gereja/*.js'
     //  './test/specs/ui/Baptis/*.js'
@@ -59,7 +60,7 @@ exports.config = {
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
-    ],
+    ], 
     //
     // ============
     // Capabilities

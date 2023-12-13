@@ -115,7 +115,7 @@ class baptisController extends Controller
      */
     public function destroy($id)
     {
-        $data = Http::get('http://127.0.0.1:8070/api/deleteBaptis/'.$id);
+        $data = Http::delete('http://127.0.0.1:8070/api/deleteBaptis/'.$id);
 
         if($data == null){
             // $failedMessage = Session::get('failed');

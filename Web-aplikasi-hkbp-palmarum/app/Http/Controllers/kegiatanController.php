@@ -119,7 +119,7 @@ class kegiatanController extends Controller
      */
     public function destroy($id)
     {
-        $data['kegiatan'] = Http::get('http://127.0.0.1:8070/api/deleteKegiatan/'.$id);
+        $data['kegiatan'] = Http::delete('http://127.0.0.1:8070/api/deleteKegiatan/'.$id);
         if($data == null){
             
             Alert::error('Hapus Kegiatan', 'Hapus Kegiatan Gagal');

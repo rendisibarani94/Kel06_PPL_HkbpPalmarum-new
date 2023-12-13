@@ -34,6 +34,10 @@ class LoginPage extends Page {
             // You might want to throw the error again or take other actions
             throw error;
         }
+    // async login (email, password) {
+    //     await this.inputEmail.setValue(email);
+    //     await this.inputPassword.setValue(password);
+    //     await this.btnSubmit.click();
     }
     
     /**

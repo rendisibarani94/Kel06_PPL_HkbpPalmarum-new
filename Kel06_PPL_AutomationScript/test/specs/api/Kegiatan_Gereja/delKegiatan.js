@@ -2,7 +2,7 @@ const axios = require('axios');
 const { expect } = require('chai');
 
 describe('Delete By ID rpp API Test', () => {
-  const idToDelete = 2;
+  const idToDelete = 44;
   const deleteUrl = `http://127.0.0.1:8070/api/deleteKegiatan/${idToDelete}`;
 
   it('should return a 200 status code after successful deletion', async () => {

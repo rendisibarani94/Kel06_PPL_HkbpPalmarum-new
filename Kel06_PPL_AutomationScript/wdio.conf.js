@@ -22,8 +22,9 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-    './test/specs/api/Kegiatan_Gereja/delKegiatan.js'
-     // './test/specs/ui/Baptis/delBaptis.js'
+   // './test/specs/api/Baptis/*.js'
+  // './test/specs/api/Kegiatan_Gereja/*.js'
+     './test/specs/ui/Baptis/*.js'
     ],
     // Patterns to exclude.
     exclude: [

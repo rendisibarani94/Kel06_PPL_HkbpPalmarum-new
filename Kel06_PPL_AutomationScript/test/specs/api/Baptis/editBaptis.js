@@ -5,7 +5,7 @@ describe('Add Baptis API', () => {
     it('should add Registrasi Baptis successfully', async () => {
       // Set the parameters for the request
       const requestData = {
-        id_registrasi_baptis: 36,
+        id_registrasi_baptis: 43,
         nama_ayah: "J. Sibarani",
         nama_ibu: "A. Silaen",
         nama_lengkap: "Rany",

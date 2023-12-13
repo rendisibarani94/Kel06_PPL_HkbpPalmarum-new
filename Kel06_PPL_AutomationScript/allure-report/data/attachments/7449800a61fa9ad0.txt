@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "h7.card-title"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "./option[. = \"Minggu Trinitatis / 2023-06-04 / 12:01:32\"]|./option[normalize-space(text()) = \"Minggu Trinitatis / 2023-06-04 / 12:01:32\"]|./optgroup/option[. = \"Minggu Trinitatis / 2023-06-04 / 12:01:32\"]|./optgroup/option[normalize-space(text()) = \"Minggu Trinitatis / 2023-06-04 / 12:01:32\"]"
+}

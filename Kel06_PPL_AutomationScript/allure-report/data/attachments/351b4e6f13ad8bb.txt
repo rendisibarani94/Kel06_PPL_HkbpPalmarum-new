@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": ".nav-treeview > .nav-item:nth-child(6) > .nav-link"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "./option[. = \"Pendeta Ritual Delima Sianturi\"]|./option[normalize-space(text()) = \"Pendeta Ritual Delima Sianturi\"]|./optgroup/option[. = \"Pendeta Ritual Delima Sianturi\"]|./optgroup/option[normalize-space(text()) = \"Pendeta Ritual Delima Sianturi\"]"
+}

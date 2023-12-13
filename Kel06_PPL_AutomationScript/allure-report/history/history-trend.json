@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 [{"data":{"failed":0,"broken":7,"skipped":0,"passed":13,"unknown":0,"total":20}}]
+=======
+<<<<<<< HEAD
+[{"data":{"failed":0,"broken":0,"skipped":0,"passed":14,"unknown":1,"total":15}}]
+=======
+[{"data":{"failed":0,"broken":10,"skipped":0,"passed":106,"unknown":1,"total":117}}]
+>>>>>>> 13d1a2d62658e6f849d1fa92180f1b41865c90c1
+>>>>>>> fc9dc15a087b55fe8ac88adac4deeebf1b771900

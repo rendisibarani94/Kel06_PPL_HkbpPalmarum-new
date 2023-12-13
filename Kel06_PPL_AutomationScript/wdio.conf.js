@@ -24,7 +24,37 @@ exports.config = {
     specs: [
    // './test/specs/api/Baptis/*.js'
   // './test/specs/api/Kegiatan_Gereja/*.js'
-     './test/specs/ui/Baptis/*.js'
+    //  './test/specs/ui/Baptis/*.js'
+         // './test/specs/**/*.js'
+        // './test/specs/**/test.js'
+
+        // './test/specs/**/logintest.js',
+        // './test/specs/**/dashboardtest.js',
+        // './test/specs/**/jemaattest.js',
+
+        // './test/specs/**/runtest.js'
+        // './test/specs/**/SearchJemaat.js',
+
+        // './test/specs/**/pelayan.js',
+
+        // './test/specs/**/AddMartumpol.js',
+        // './test/specs/**/AddRpp.js',
+        // './test/specs/**/DeleteRpp.js',
+        // './test/specs/**/DetailJemaat.js',
+       // './test/specs/**/EditIbadah.js',
+
+        // './test/specs/**/test.js'
+        // './test/specs/**/ListJemaat.js'
+
+        // './test/specs/**/GetDataJemaat.js'
+        // './test/specs/**/AddMartumpoljs'
+        //    './test/specs/**/Pelayan_Gereja.js',
+    //    './test/specs/api/**/*.js',
+        // './test/specs/api/Pernikahan/*.js'
+        // './test/specs/api/Pelayan_Gereja/*.js'
+        // './test/specs/api/Jadwal_Ibadah/*.js'
+        // './test/specs/api/Jemaat/*.js'
+
     ],
     // Patterns to exclude.
     exclude: [
